@@ -24,5 +24,6 @@ public class HashInterruptedException {
         thread.start();
         thread.sleep(20);
         thread.interrupt();
+        System.out.println(123);
     }
 }
